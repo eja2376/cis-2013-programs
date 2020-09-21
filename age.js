@@ -1,6 +1,7 @@
 var floatAge, floatDays, intWeeks, floatMonths, intFortnights;
     floatAge = parseFloat(prompt("Please enter your age:"));
-        if (floatAge===null) {alert("You clicked cancel.");}
+        {if (floatAge===null);
+        alert("You clicked cancel.");}
     floatDays = parseFloat(floatAge * 365.25);
     floatMonths = parseFloat(floatAge * 12);
     intWeeks = parseInt(floatDays / 7);
