@@ -1,0 +1,62 @@
+﻿
+body {
+    font-family: "Playfair display", Times New Roman, sans-serif;
+    background: #FFFFFF;
+    color: #f79cea;
+}
+
+#content {
+    width: 600px;
+    margin: 10px auto;
+    padding: 5px 20px;
+    background: #0a0d6e;
+    border: 1px solid #000000;
+}
+
+h1 {
+	text-align: center;
+    color: #f79cea;
+}
+
+p {
+	color: white;
+	font-weight: bold;
+	text-align: center;
+}
+
+label {
+    display: block;
+    width: 20em;
+    text-align: right;
+    padding-right: 1em;
+    float: left;
+}
+
+input {
+    display: block;
+    float: left;
+    width: 75px;
+}
+
+#futureValue {
+    color: #000000;
+}
+
+br {
+    clear: left;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 540px;
+  height: 440px;
+  
+}
+.w3-button {
+    text-align: center;
+    border-color: pink;
+    color: blue;
+     
+    
+}
