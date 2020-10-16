@@ -7,15 +7,15 @@ var calculate_click = function ()
 {
     var intGradeOption, floatTotalPts, floatHwPts, floatMidPts, floatFinPts, stringFinalGrade;
 
-    floatHwPts = parseFloat($("hw_pts".value));
+    floatHwPts = parseFloat($("hw_pts").value);
     
-    floatMidPts = parseFloat($("mid_pts".value));
+    floatMidPts = parseFloat($("mid_pts").value);
     
-    floatFinPts = parseFloat($("fin_pts".value));
+    floatFinPts = parseFloat($("fin_pts").value);
     
     floatTotalPts = parseFloat(floatHwPts + floatMidPts + floatFinPts);
     
-    intGradeOption = parseInt($("grade_option".value));
+    intGradeOption = parseInt($("grade_option").value);
     
 if (intGradeOption===1)
     {
