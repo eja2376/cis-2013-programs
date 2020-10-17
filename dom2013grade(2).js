@@ -5,7 +5,7 @@ var $ = function (id)
 
 var calculate_click = function () 
 {
-    var intGradeOption, floatTotalPts, floatHwPts, floatMidPts, floatFinPts, stringFinalGrade;
+    var floatHwPts, floatMidPts, floatFinPts, floatTotalPts, intGradeOption, stringFinalGrade;
 
     floatHwPts = parseFloat($("hw_pts").value);
     
@@ -19,10 +19,10 @@ var calculate_click = function ()
     
 if (intGradeOption===1)
     {
-        if(floatTotalPts<=100 && floatTotalPts>=80)
-         {
+            if(floatTotalPts<=100 && floatTotalPts>=80)
+             {
             stringFinalGrade= "Pass";
-         }
+             }
             else
             {
              stringFinalGrade= "Fail";
@@ -36,27 +36,27 @@ else if (intGradeOption===2)
                  stringFinalGrade = "A" ;
              }
         
-                else if (floatTotalPts < 90 && floatTotalPts >= 80) 
-                 {
-                    stringFinalGrade = "B" ;
-                 }         
-                     else if (floatTotalPts < 80 && floatTotalPts >= 70) 
-                        {
-                            stringFinalGrade = "C" ;
-                        }
-                         else if (floatTotalPts < 70 && floatTotalPts >= 60) 
-                           {
-                            stringFinalGrade = "D";
-                           }
-                             else if (floatTotalPts < 60) 
-                                {
-                                    stringFinalGrade = "F";
-                                }
+             else if (floatTotalPts < 90 && floatTotalPts >= 80) 
+             {
+                stringFinalGrade = "B" ;
+             }         
+             else if (floatTotalPts < 80 && floatTotalPts >= 70) 
+             {
+                stringFinalGrade = "C" ;
+             }
+             else if (floatTotalPts < 70 && floatTotalPts >= 60) 
+             {
+                stringFinalGrade = "D";
+             }
+             else if (floatTotalPts < 60) 
+             {
+                stringFinalGrade = "F";
+             }
         }
-/*else
+else
     {
         stringFinalGrade = "Invalid Input";
-    }   */
+    }
 
 $("final_grade").value = stringFinalGrade;
 
