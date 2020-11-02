@@ -1,0 +1,59 @@
+body {
+    font-family: 'Raleway','Montserrat', Helvetica, sans-serif;
+    background: white;
+}
+
+#content {
+    width: 800px;
+    height: 600px;
+    margin: 10px auto;
+    padding: 5px 20px;
+    background: rgb(255, 230, 255);
+    border: 1px solid #000000;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+p {
+	color: rgb(230, 0, 230);
+	font-weight: bold;
+	text-align: center;
+}
+
+label {
+    display: block;
+    width: 23em;
+    text-align: right;
+    padding-right: 1em;
+    float: left;
+    color: black;
+}
+
+.button-labels{
+    font-size: 13.5px;
+    text-align: center;
+    padding: 0.090em 0.09em;
+    padding-right: 6em;
+    padding-left: 0.5em;
+}
+.input-font{
+    font-family: 'Montserrat';
+}
+input {
+    display: block;
+    border-color: rgb(230, 0, 230);
+    border-width: 0.55px;
+    float: left;
+    width: 100px;
+}
+
+#futureValue {
+    color: #000000;
+}
+
+br {
+    clear: left;
+}

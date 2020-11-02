@@ -1,0 +1,60 @@
+
+<!DOCTYPE HTML>
+<head>
+    <title>Geometry Calculator</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,300&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"> 
+    <link rel="stylesheet" type="text/css" href="geometry.css" />
+    <script type="text/javascript" src="myGeometry.js"></script>
+</head>
+
+<body>
+    <div id="content">
+        <h1>CIS2013 Basic Geometry Calculator</h1>
+        <p>Enter the values requested below and click the calculation button you prefer.</p>
+        
+        <label for="rect_width">Rectangle width:</label>
+        <input type="text" id="rect_width" class="w3-border w3-round w3-border-purple w3-center input-font"/><br />
+        
+        <label for="rect_height">Rectangle height:</label>
+        <input type="text" id="rect_height" class="w3-border w3-round w3-border-purple w3-center input-font"/><br />
+        
+        <label for="tri_side1">Triangle side 1:</label>
+        <input type="text" id="tri_side1" class="w3-border w3-round w3-border-purple w3-center input-font"/><br />
+        
+        <label for="tri_side2">Triangle side 2:</label>
+        <input type="text" id="tri_side2" class="w3-border w3-round w3-border-purple w3-center input-font"/><br />
+
+        <label for="tri_side3">Triangle side 3:</label>
+        <input type="text" id="tri_side3" class="w3-border w3-round w3-border-purple w3-center input-font"/><br />
+
+        <label for="radius">Circle radius:</label>
+        <input type="text" id="radius" class="w3-border w3-round w3-border-purple w3-center input-font"/><br />
+    
+		<fieldset>
+		<label for="calc_rect_area">Rectangle:</label>
+		<input type="button"  id="calc_rect_area" value="Area" class="w3-border w3-round w3-border-purple w3-hover-border-blue"/>
+		<input type="button"  id="calc_rect_perim" value="Perimeter" class="w3-border w3-round w3-border-purple w3-hover-border-blue"/>
+		</fieldset>		
+
+		<fieldset>
+		<label for="calc_tri_area">Triangle:</label>
+		<input type="button"  id="calc_tri_area" value="Area" class="w3-border w3-round w3-border-purple w3-hover-border-blue"/>
+		<input type="button"  id="calc_tri_perim" value="Perimeter" class="w3-border w3-round w3-border-purple w3-hover-border-blue"/>
+		</fieldset>		
+
+		<fieldset>
+		<label for="calc_circle_area">Circle:</label>
+		<input type="button"  id="calc_circle_area" value="Area" class="w3-border w3-round w3-border-purple w3-hover-border-blue"/>
+		<input type="button"  id="calc_circle_circum" value="Circumference" class="button-labels w3-border w3-round w3-border-purple w3-hover-border-blue"/>
+		</fieldset>		
+
+		<fieldset>
+		<label for="calc_all">Calculate everything at once:</label>
+		<input type="button"  id="calc_all" value="Do it!!" class="w3-border w3-round w3-border-purple w3-hover-border-blue"/>
+		</fieldset>		
+
+    </div>
+</body>
+</html>
